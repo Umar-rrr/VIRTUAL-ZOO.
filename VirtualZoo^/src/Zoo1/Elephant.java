@@ -1,0 +1,21 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Zoo1;
+
+/**
+ *
+ * @author my-pc
+ */
+public class Elephant extends Animal
+{
+   public Elephant() {
+        super("Elephant", "Mammal");
+    }
+
+    @Override
+    public String makeSound() {
+        return "Trumpet!";
+    } 
+}
